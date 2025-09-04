@@ -1,6 +1,14 @@
 import React from "react";
 import { SafeAreaView } from "react-native";//
-import SectionListTask1 from "./Topics/Core Components/SectionList/Tasks/task1";
+import SwitchFinalTask from "./Topics/Core Components/Switchh/Tasks/finaltask";
+//import SwitchTask3 from "./Topics/Core Components/Switchh/Tasks/task3";
+//import MasterSwitch from "./Topics/Core Components/Switchh/Master";
+//import SwitchTask2 from "./Topics/Core Components/Switchh/Tasks/task2";
+//import DisabledSwitch from "./Topics/Core Components/Switchh/DisabledSwitch";
+//import MultipleSwitchesSwitch from "./Topics/Core Components/Switchh/MultipleSwitches";
+//import SwitchBasics from "./Topics/Core Components/Switchh/Basic";
+//import SectionListTask2 from "./Topics/Core Components/SectionList/Tasks/task2";
+//import SectionListTask1 from "./Topics/Core Components/SectionList/Tasks/task1";
 //import SectionListBasic from "./Topics/Core Components/SectionList/basic";
 //import ActivityIndicatorTask7 from "./Topics/Core Components/Activity Indicator/Tasks/task7";//
 //import ActivityIndicatorTask6 from "./Topics/Core Components/Activity Indicator/Tasks/task6";
@@ -55,7 +63,7 @@ import SectionListTask1 from "./Topics/Core Components/SectionList/Tasks/task1";
 export default function App() {
   return (
     <SafeAreaView>
-    <SectionListTask1/>
+    <SwitchFinalTask/>
     </SafeAreaView>
   );
 }
