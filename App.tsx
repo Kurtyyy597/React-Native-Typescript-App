@@ -1,6 +1,10 @@
 import React from "react";
 import { SafeAreaView } from "react-native";//
-import ActivityIndicatorTask4 from "./Topics/Core Components/Activity Indicator/Tasks/task4";
+import SectionListTask1 from "./Topics/Core Components/SectionList/Tasks/task1";
+//import SectionListBasic from "./Topics/Core Components/SectionList/basic";
+//import ActivityIndicatorTask7 from "./Topics/Core Components/Activity Indicator/Tasks/task7";//
+//import ActivityIndicatorTask6 from "./Topics/Core Components/Activity Indicator/Tasks/task6";
+//import ActivityIndicatorTask4 from "./Topics/Core Components/Activity Indicator/Tasks/task4";//
 //import ActivityIndicatorTask3 from "./Topics/Core Components/Activity Indicator/Tasks/task3";
 //import ActivityIndicatorTask2 from "./Topics/Core Components/Activity Indicator/Tasks/task2";
 //import ActivityIndicatorTask1 from "./Topics/Core Components/Activity Indicator/Tasks/task1";
@@ -51,7 +55,7 @@ import ActivityIndicatorTask4 from "./Topics/Core Components/Activity Indicator/
 export default function App() {
   return (
     <SafeAreaView>
-    <ActivityIndicatorTask4/>
+    <SectionListTask1/>
     </SafeAreaView>
   );
 }
